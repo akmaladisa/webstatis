@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="jumbotron">
+            <h1 id="pendahuluan">COVID-19</h1>
+
+            <p>
+                Virus Corona atau severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) adalah virus yang menyerang sistem pernapasan. Penyakit karena infeksi virus ini disebut COVID-19. Virus Corona bisa menyebabkan gangguan ringan pada sistem pernapasan, infeksi paru-paru yang berat, hingga kematian.
+            </p>
+        </div>
+        <nav>
+            <div class="dropdown">
+                <button class="btn-nav" onclick="dropDownFunction()">Tentang COVID-19</button>
+                <div id="myDropdown" class="dropdown-content">
+                    <a href="#pendahuluan">Pendahuluan</a>
+                    <a href="#pencegahan">Pencegahan</a>
+                    <a href="#gejala">Gejala</a>
+                    <a href="#kasus">Kasus</a>
+                    <a href="#me">Tentang Saya</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="konten"> 
+            <article class="protocol" id="pencegahan">
+                <h1>Pencegahan Covid-19</h1>
+                <div class="mask">
+                    <img src="img/mask.png" alt="Memakai Masker">
+                    <p>Memakai Masker</p>
+                </div>
+    
+                <div class="distance">
+                    <img src="img/social-distancing.png" alt="Memakai Masker">
+                    <p>Menjaga Jarak</p>
+                </div>
+    
+                <div class="wash">
+                    <img src="img/wash-your-hands.png" alt="Memakai Masker">
+                    <p>Mencuci Tangan</p>
+                </div>
+    
+                <div class="crowd">
+                    <img src="img/no-crowd.png" alt="Memakai Masker">
+                    <p>Menghindari Kerumunan</p>
+                </div>
+    
+                <form action="https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public" target="_blank">
+                    <input type="submit" value="Lihat Selengkapnya" />
+                </form>
+            </article>
+    
+            <article class="gejala" id="gejala">
+                <h1>Gejala Covid-19</h1>
+                <div class="napas">
+                    <img src="img/napas.png" alt="Memakai Masker">
+                    <p>Sesak Napas</p>
+                </div>
+    
+                <div class="demam">
+                    <img src="img/demam.png" alt="Memakai Masker">
+                    <p>Demam</p>
+                </div>
+    
+                <div class="dada">
+                    <img src="img/dada.png" alt="Memakai Masker">
+                    <p>Nyeri Dada</p>
+                </div>
+    
+                <div class="tenggorokan">
+                    <img src="img/tenggorokan.png" alt="Memakai Masker">
+                    <p>Nyeri Tenggorokan</p>
+                </div>
+    
+                <form action="https://www.who.int/emergencies/diseases/novel-coronavirus-2019/question-and-answers-hub/q-a-detail/coronavirus-disease-covid-19#:~:text=symptoms" target="_blank">
+                    <input type="submit" value="Lihat Selengkapnya" />
+                </form>
+            </article>
+            
+            <article class="update" id="kasus">
+                <h1>Kasus Global Covid-19</h1>
+                <p>Last updated: December 30, 2020, 01:31 GMT</p>
+                <div class="total">
+                    <img src="img/covid-19.png" alt="Memakai Masker">
+                    <p>Total Kasus</p>
+                    <p class="total-int">82,291,768</p>
+                </div>
+    
+                <div class="meninggal">
+                    <img src="img/tomb.png" alt="Memakai Masker">
+                    <p>Meniggal</p>
+                    <p class="meninggal-int">1,795,172</p>
+                </div>
+    
+                <div class="sembuh">
+                    <img src="img/rehabilitation.png" alt="Memakai Masker">
+                    <p>Sembuh</p>
+                    <p class="sembuh-int">58,311,934</p>
+                </div>
+    
+                <form action="https://www.worldometers.info/coronavirus/" target="_blank">
+                    <input type="submit" value="Update Terbaru" />
+                </form>
+            </article>
+        </div>
+        <aside>
+            <article class="my-profile">
+                <h2 id="me">About Me</h2>
+                <img src="img/akmal.jpg" alt="me" class="myPhoto">
+                <ul>
+                    <li><b>Nama:</b> Akmal Adi Saputra</li>
+                    <li><b>Sekolah:</b> SMKN 1 Cibinong Kab. Bogor</li>
+                    <li><b>Jurusan:</b> Rekayasa Perangkat Lunak</li>
+                    <li><b>Kelas:</b> 10</li>
+                </ul>
+            </article>
+
+            <article class="kontak">
+                <h2>Contact Me</h2>
+                <div class="sosmed">
+                    <a href="https://www.linkedin.com/in/akmal-adi-saputra-056670196/" target="_blank"><img src="img/linkedin.png" alt="Akmal's LinkedIn Account"></a>
+                    <a href="https://github.com/akmaladisa" target="_blank"><img src="img/github.png" alt="Akmal's Github Account"></a>
+                </div>
+            </article>
+        </aside>
+    </main>
+    
+    <footer>
+        <h4>&#169; Akmal Adi Saputra, 2021</h4>
+    </footer>
+    
+    <script src="index.js"></script>
+</body>
+</html>
